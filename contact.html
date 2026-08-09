@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | Jack Hendrickson Music</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Barlow+Condensed:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="index.html" class="nav-logo">JACK<span> </span>HENDRICKSON</a>
+  <ul class="nav-links">
+    <li><a href="index.html#what">What I Do</a></li>
+    <li><a href="index.html#patreon">Patreon</a></li>
+    <li><a href="index.html#store">Store</a></li>
+    <li><a href="gear.html">Gear</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html" class="active">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- PAGE HEADER -->
+<section id="page-top" class="page-top">
+  <div class="hero-bg"></div>
+  <div class="section-inner" style="position:relative; z-index:1;">
+    <div class="section-header fade-up">
+      <div class="section-tag">Work Together</div>
+      <h1 class="section-title">Get in <span class="accent">Touch</span></h1>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="section-inner">
+    <div class="contact-wrap fade-up">
+      <div>
+        <p class="contact-pitch">
+          I'm open to brand partnerships, gear loans and reviews, affiliate
+          collaborations, and content collabs with other creators.
+          <strong>If your product is genuinely something I'd use — let's talk.</strong>
+        </p>
+        <p class="contact-pitch">
+          I'm also available to <strong>mix your songs</strong> — if you've tracked your guitars, bass, or full band and need someone to take it over the finish line, get in touch. And if you're a guitarist or musician looking to <strong>collaborate on a cover</strong>, I'm always down to work with other creators. Whether that's a full co-production or just trading parts remotely, reach out and let's make something.
+        </p>
+        <a href="mailto:jackhendricksonmusic@gmail.com" class="contact-email">
+          jackhendricksonmusic@gmail.com
+        </a>
+        <p class="contact-pitch" style="margin-bottom:10px">I'm particularly interested in:</p>
+        <ul class="collab-list">
+          <li class="collab-item">Guitar and bass brands with lefty models</li>
+          <li class="collab-item">Plugin companies in the metal / rock space</li>
+          <li class="collab-item">Gear reviews for audio interfaces, mics, and studio equipment</li>
+          <li class="collab-item">Affiliate partnerships on products I already own and use</li>
+          <li class="collab-item">Mixing songs for independent artists and fellow creators</li>
+          <li class="collab-item">Cover collaborations with other guitarists and musicians on YouTube</li>
+        </ul>
+      </div>
+
+      <div class="contact-social">
+        <div class="social-title">Find Me Online</div>
+        <div class="social-links">
+          <a href="https://www.youtube.com/@jackhendricksonmusic" target="_blank" class="social-link">
+            <span class="social-platform">YouTube</span>
+            <span class="social-handle">@jackhendricksonmusic</span>
+            <span class="social-arrow">→</span>
+          </a>
+          <a href="https://www.instagram.com/jackhendricksonmusic" target="_blank" class="social-link">
+            <span class="social-platform">Instagram</span>
+            <span class="social-handle">@jackhendricksonmusic</span>
+            <span class="social-arrow">→</span>
+          </a>
+          <a href="https://www.tiktok.com/@jackhendricksonmusic" target="_blank" class="social-link">
+            <span class="social-platform">TikTok</span>
+            <span class="social-handle">@jackhendricksonmusic</span>
+            <span class="social-arrow">→</span>
+          </a>
+          <a href="https://www.facebook.com/jackhendricksonmusic" target="_blank" class="social-link">
+            <span class="social-platform">Facebook</span>
+            <span class="social-handle">jackhendricksonmusic</span>
+            <span class="social-arrow">→</span>
+          </a>
+          <a href="https://www.patreon.com/YOURURLHERE" target="_blank" class="social-link">
+            <span class="social-platform">Patreon</span>
+            <span class="social-handle">jackhendricksonmusic</span>
+            <span class="social-arrow">→</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <a href="index.html" class="footer-logo">JACK<span> </span>HENDRICKSON</a>
+  <span class="footer-copy">© 2026 Jack Hendrickson Music · All Rights Reserved</span>
+</footer>
+
+<script>
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  }, { threshold: 0.08 });
+
+  document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+</script>
+
+</body>
+</html>
